@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="assets/css/style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Lora:wght@500&family=Montserrat:wght@300;400;600&display=swap"
+    rel="stylesheet">
+  <title>gulp project</title>
+</head>
+
+<body>
+  <section class="authorization">
+    <div class="container">
+      <div class="authorization_top">
+        <ul class="authorization_list">
+          <li class="authorization_item">Главная</li>
+          <li class="authorization_item">Авторизация</li>
+          <li class="authorization_item">Смена пароля</li>
+        </ul>
+        <hr class="authorization_line">
+        <h1 class="authorization_title">Смена пароля</h1>
+      </div>
+
+      <div class="chenge">
+        <div class="registration_block">
+          <div class="registration_wrapper">
+            <div class="authorization_wrapp">
+              <p class="authorization_text-inputTel">Номер телефона</p>
+              <p class="authorization_text-input authorization_text-input-right">Заполните это поле</p>
+            </div>
+            <input class="authorization_input" type="tel" placeholder="+7 000 000 000 000 ">
+          </div>
+          <div class="registration_wrapper">
+            <div class="authorization_wrapp">
+              <p class="authorization_textRecovery">Код восстановления из СМС</p>
+              <p class="authorization_text-input authorization_text-input-right">Заполните это поле</p>
+            </div>
+            <input class="authorization_input" type="email">
+          </div>
+
+        </div>
+
+
+        <div class="registration_wrapper">
+          <div class="authorization_wrapp">
+            <p class="registration_textPassword">Пароль</p>
+            <p class="authorization_text-input authorization_text-input-right">Заполните это поле</p>
+          </div>
+          <div class="authorization_inputWrap-img">
+            <input class="authorization_input authorization_inputPassword" type="text">
+            <button class="authorization_input-img"><img src="./assets/images/eye-open.svg" alt=""></button></div>
+          <p class="registration_text-input">Длинна пароля не менее 6 символов</p>
+        </div>
+        <div class="registration_wrapper">
+          <div class="authorization_wrapp">
+            <p class="authorization_textPassword2">Подтверждение пароля</p>
+            <p class="authorization_text-input authorization_text-input-right">Заполните это поле</p>
+          </div>
+          <div class="authorization_inputWrap-img">
+            <input class="authorization_input authorization_inputPassword" type="password">
+            <button class="authorization_input-img"><img src="./assets/images/eye-closed.svg" alt=""></button></div>
+        </div>
+
+        <div class="registration_button_block_change">
+          <button class="authorization_button">Зарегистрироваться</button>
+          <p class="authorization_text-bottom registration_button-text">- обязательные поля</p>
+        </div>
+        <div class="recovery_bottom_wrapper"><p
+            class="recovery_bottom_text">Отправить код повторно</p><hr class="recovery_line"></div>
+        <p class="authorization_textbottom-second">Отправить СМС повторно</p>
+      </div>
+    </div>
+  </section>
+
+
+  <script src=""></script>
+</body>
+
+</html>
