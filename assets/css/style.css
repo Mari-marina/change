@@ -447,6 +447,12 @@ a {
     margin-bottom: 50px;
 }
 
+@media (max-width: 470px) {
+    .authorization_title {
+        font-size: 20px;
+    }
+}
+
 .authorization_text {
     font-family: "Montserrat";
     font-style: normal;
@@ -1077,6 +1083,10 @@ a {
     top: 2px;
 }
 
+.recovery_input {
+    padding-left: 65px;
+}
+
 .registration_block {
     margin-top: 50px;
 }
@@ -1268,4 +1278,60 @@ a {
     width: 100%;
     max-width: 193px;
     cursor: pointer;
+}
+
+.recovery_text-green {
+    display: none;
+}
+
+.recovery_text-green {
+    background: #E6F8DE;
+    border-radius: 20px;
+    padding: 20px;
+    max-width: 900px;
+    width: -webkit-max-content;
+    width: -moz-max-content;
+    width: max-content;
+    font-family: 'Lora';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 23px;
+    color: #5E9148;
+    margin-bottom: 192px;
+}
+
+@media (max-width: 470px) {
+    .recovery_text-green {
+        margin-bottom: 428px;
+    }
+
+    .recovery_textEmail {
+        font-size: 10px;
+    }
+}
+
+.recovery_textEmail {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 17px;
+    color: #868686;
+    margin-bottom: 50px;
+}
+
+.recovery_wrap_input {
+    position: relative;
+}
+
+.recovery_input_img {
+    position: absolute;
+    border: none;
+    height: 46px;
+    width: 46px;
+    left: 7px;
+    background: white;
+    border-right: 1px solid black;
+    top: 2px;
 }
